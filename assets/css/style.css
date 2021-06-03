@@ -58,7 +58,7 @@ header {
 
 .menu li a:hover, .menu .active a {
     border-bottom:5px solid #b28756;
-    color:#ccc;
+    color:#bbb;
 }
 
 .button {
@@ -163,7 +163,7 @@ header {
 
 .default .section_desc {
     font-size:12px;
-    color:#ccc;
+    color:#bbb;
     margin-top:10px;
     margin-bottom:40px;
 }
@@ -195,7 +195,7 @@ header {
 
 .default.white {
     background-color:#fff;
-    border-top:1px solid #ccc;
+    border-top:1px solid #bbb;
     border-bottom:2px solid #ddd;
 }
 
@@ -271,7 +271,7 @@ CSS for specific areas
 }
 
 .section_projects_filters {
-    border:1px solid #ccc;
+    border:1px solid #bbb;
     background-color:#eee;
     border-radius:30px;
     display:inline-block;
@@ -287,7 +287,7 @@ CSS for specific areas
     padding:10px;
     text-transform:uppercase;
     font-size:13px;
-    border-left:1px solid #ccc;
+    border-left:1px solid #bbb;
     color:#555;
     border-bottom:3px solid transparent;
     cursor:pointer;
@@ -444,7 +444,7 @@ CSS for specific areas
     width:25px;
     height:25px;
     border-radius:13px;
-    background-color:#ccc;
+    background-color:#bbb;
     margin-right:20px;
 }
 
@@ -550,9 +550,9 @@ CSS for specific areas
 }
 
 .plan_price {
-    width:350px;
+    width:360px;
     height:100%;
-    min-height:400px;
+    min-height:360px;
     display:inline-block;
     background-color:#fff;
     margin-right:30px;
@@ -574,12 +574,29 @@ CSS for specific areas
 
 .period {
     text-transform:uppercase;
-    font-size:12px;
-    color:#ccc;
+    font-size:10px;
+    color:#bbb;
 }
 
 .plan_price ul {
-    margin:25px 0px;
+    margin-top:25px;
     font-size:11px;
     list-style:none;
+}
+
+.btn_choose {
+    display:inline-block;
+    background-color:#373737;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:12px;
+    font-weight:600;
+    text-decoration:none;
+    padding:15px 35px;
+    margin-top:27px;
+    border-radius:20px;
+}
+
+.btn_choose.active {
+    background-color:#b28756;
 }
