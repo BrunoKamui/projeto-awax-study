@@ -204,6 +204,10 @@ header {
     color:#000;
 }
 
+.slim {
+    padding:18px 0px;
+}
+
 
 
 /*
@@ -708,6 +712,32 @@ CSS for specific areas
     margin-top:10px;
     font-size:13px;
     color:#999;
+}
+
+
+
+.section_social_media {
+    display:flex;
+    justify-content:center;
+}
+
+.social_links {
+    display:flex;
+    width:700px;
+    justify-content:space-around;
+}
+
+.social_links .tell_about, .social_links a {
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:600;
+    color:#999;
+}
+
+.social_links img {
+    margin:0px 5px;
 }
 
 
