@@ -600,3 +600,75 @@ CSS for specific areas
 .btn_choose.active {
     background-color:#b28756;
 }
+
+
+
+.premium {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.premium .section_body {
+    display:flex;
+    justify-content:space-evenly;
+    width:1140px;
+    border-bottom:1px solid #bbb;
+    padding-bottom:40px;
+}
+
+.premium .title {
+    display:flex;
+    align-items:flex-start;
+    text-transform:uppercase;
+    font-size:22px;
+    font-weight:600;
+    margin-top:25px;
+}
+
+.premium .title img {
+    margin-right:30px;
+}
+
+.premium .section_text p {
+    margin-left:65px;
+    line-height:20px;
+    color:#999;
+}
+
+.premium .section_text ul {
+    list-style:none;
+    text-transform: uppercase;
+    color:#999;
+    line-height:20px;
+    margin-left:65px;
+    margin-top:10px;
+}
+
+.premium .sliders_pointers {
+    height:20px;
+    margin:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.premium .pointer {
+    width:15px;
+    height:15px;
+    border:2px solid #b28756;
+    border-radius:8px;
+    margin:0px 5px;
+    cursor:pointer;
+}
+
+.premium .pointer.active {
+    background-color:#b28756;
+}
+
+.premium .button {
+    margin-top:0;
+}
+
+
+
