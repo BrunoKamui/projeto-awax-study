@@ -851,3 +851,67 @@ form {
 
 
 
+.section_footer {
+    display:flex;
+}
+
+.section_footer_social, .section_footer_text, .section_footer_subscribe {
+    flex:1;
+}
+
+.section_footer_social {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    font-weight:600;
+}
+
+.footer_social_links a {
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:30px;
+    height:30px;
+    background-color:#373737;
+    border-radius:15px;
+    margin-right:10px;
+}
+
+.footer_social_links a.active {
+    background-color: #b28756;
+}
+
+.section_footer_text {
+    color:#999;
+    line-height:20px;
+    padding:0px 10px;
+}
+
+.section_footer_subscribe {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#373737;
+    border-radius:5px;
+}
+
+.subscribe_form {
+    height:auto;
+}
+
+.field_subscribe input {
+    border:none;
+    outline:none;
+    text-align:center;
+    background-color:#373737;
+    color:#f7f7f7;
+    width:250px;
+    border-bottom:2px solid #ccc;
+    padding-bottom:10px;
+}
+
+.field_subscribe input::placeholder {
+    text-transform:uppercase;
+    color:#999;
+    font-weight:600;
+}
