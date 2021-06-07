@@ -959,7 +959,7 @@ form {
         margin-right:50px;
         border:none;
     }
-    .menu li.active a {
+    .menu li.active a, .menu li a:hover {
         border:none;
         color:#b28756;
     }
@@ -1058,7 +1058,7 @@ form {
         margin-right:30px;
         border:none;
     }
-    .menu li.active a {
+    .menu li.active a, .menu li a:hover {
         border:none;
         color:#b28756;
     }
